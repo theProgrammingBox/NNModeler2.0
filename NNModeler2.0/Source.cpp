@@ -323,7 +323,6 @@ struct NN
 			operation->PrintParameters();
 	}
 };
-//
 
 int main()
 {
