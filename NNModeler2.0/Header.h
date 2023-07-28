@@ -118,6 +118,7 @@ void cpuReluBackward(
 	for (int i = 0; i < n; i++)
 		dx[i] = *beta * dx[i] + (*alpha * x[i] >= 0 ? *alpha * dy[i] : 0);
 }
+//
 
 void cpuLeakyReluForward(
 	int n,
